@@ -1,8 +1,30 @@
 aid: majestic-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/majestic-labs.png
 name: Majestic Labs
-description: 'Majestic Labs is a company surfaced as a portfolio company of lux-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: semiconductors. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Majestic Labs is a semiconductor and AI-infrastructure company building
+  power-efficient AI servers that put memory first. Its rearchitected server
+  uses custom chips that disaggregate memory from compute, giving processors
+  direct access to a massive uniform, high-bandwidth memory pool (reportedly up
+  to 128 TB per server and roughly 1000x more memory available to compute than
+  a conventional design). The company claims a single Majestic rack can hold the
+  memory capacity of about 25 Nvidia NVL72-class racks while consuming a fraction
+  of the power, targeting frontier language models, agentic and reasoning AI,
+  graph neural networks, and video generation. Founded by Ofer Shacham, Sha
+  Rabii, and Masumi Reynders, Majestic Labs is backed by Lux Capital (2024). This
+  profile was added to the API Evangelist network as a company lead; the company
+  does not currently publish a public developer/API surface.
 url: https://raw.githubusercontent.com/api-evangelist/majestic-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +34,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Semiconductors
+- AI Infrastructure
+- Memory
+- Servers
+- Data Center
+- Hardware
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/majestic-labs-domain-security.yml
+- type: Website
+  url: https://majestic-labs.ai/
+- type: Product
+  url: https://majestic-labs.ai/product
+- type: Team
+  url: https://majestic-labs.ai/team
+- type: Careers
+  url: https://majestic-labs.ai/careers
+- type: News
+  url: https://majestic-labs.ai/news
+- type: Support
+  url: mailto:info@majestic-labs.ai
+- type: GitHubOrganization
+  url: https://github.com/Majestic-Labs-ai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/majestic-labs-ai/
+- type: Twitter
+  url: https://x.com/majestic_labs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
